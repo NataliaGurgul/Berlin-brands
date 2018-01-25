@@ -1,0 +1,38 @@
+$container-max-widths: (
+  lg: 1920px
+);
+body {
+	font-family: 'Alegreya Sans SC', sans-serif;
+/*	width: 1920px;*/
+	height: 1080px;
+}
+/*jumbo*/
+.jumbotron {
+  background: url(img/artem-sapegin-berlin.jpg) no-repeat center center; 
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.page-header {
+	border: 1px solid white;
+	padding: 10px }
+	h1 p { margin: 0 auto }
+.source { margin-top: 360px }
+.blockquote-footer { color: black }
+a { color: black }
+    a:hover {
+	text-decoration: none;
+    color: white;
+    }
+/*brands*/
+.brand { 
+	padding-top: 80px;
+	padding-bottom: 100px
+ }
+.header-logo { 
+	padding-bottom: 20px;
+	padding-top: 20px 
+}
+.footer { 
+	background-color: #EFF3F4;
+    padding-top: 15px }
